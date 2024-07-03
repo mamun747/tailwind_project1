@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .head-card{
+        @apply text-[#333333] md:text-2xl text-xl font-semibold md:pt-8 pt-4 pb-4
+    }
+}
